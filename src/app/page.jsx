@@ -28,7 +28,7 @@ const Homepage = () => {
           </h1>
           {/* description */}
           <p className="md:text-xl">
-            I'm Subhash Galla — a passionate Computer Science student at the University of North Texas, crafting full-stack web applications and diving deep into machine learning. From building e-commerce systems to predicting outcomes with ML models, I love solving real problems with clean code and smart data.
+            I&apos;m Subhash Galla — a passionate Computer Science student at the University of North Texas, crafting full-stack web applications and diving deep into machine learning. From building e-commerce systems to predicting outcomes with ML models, I love solving real problems with clean code and smart data.
           </p>
           {/* buttons */}
           <div className="w-full flex gap-4">

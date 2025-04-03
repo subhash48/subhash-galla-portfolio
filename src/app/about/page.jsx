@@ -2,6 +2,7 @@
 import {motion, useInView, useScroll} from "framer-motion";
 import Brain from "../components/brain";
 import { useRef } from "react";
+import Image from "next/image";
 
 const AboutPage = () => {
 
@@ -34,18 +35,20 @@ const AboutPage = () => {
             <h1 className="font-bold text-2xl">BIOGRAPHY</h1>
             {/* BIOGRAPHY Para */}
             <p className="text-lg">
-            Hi, I'm Subhash Galla, a Computer Science student at the University of North Texas with a passion for building user-focused web applications and exploring the world of machine learning and AI.
-
-            I've built full-stack projects using React.js, Node.js, MongoDB, and Express, and I’m currently diving deep into data-driven applications powered by Python and ML libraries. Whether it's crafting responsive UIs or training predictive models, I love turning ideas into working solutions.
-
-            I'm currently seeking internship opportunities where I can contribute, learn, and grow alongside talented teams. Let’s connect and build something impactful!
+            Hi, I&apos;m Subhash Galla, a Computer Science student at the University of North Texas with a passion
+            for building user-focused web applications and exploring the world of machine learning and AI. 
+            I&apos;ve built full-stack projects using React.js, Node.js, MongoDB, and Express, and I&apos;m currently
+            diving deep into data-driven applications powered by Python and ML libraries. Whether it&apos;s
+            crafting responsive UIs or training predictive models, I love turning ideas into working solutions. 
+            I&apos;m currently seeking internship opportunities where I can contribute, learn, and grow alongside
+            talented teams. Let&apos;s connect and build something impactful!
             </p>
             {/* BIOGRAPHY QUOTE */}
             <span className="italic">
             </span>
             {/* BIOGRAPHY SIGN SVG*/}
             <div className="self-end">
-            <img src="/signature.svg" alt="Signature" width={180} height={70} />
+            <Image src="/signature.svg" alt="Signature" width={180} height={70} />
             </div>
             {/* BIOGRAPHY SCROLL SVG*/}
             <motion.svg
