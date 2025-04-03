@@ -8,35 +8,35 @@ import Link from "next/link";
 const items = [
   {
     id: 1,
-    color: "from-red-300 to-blue-300",
-    title: "React Commerce",
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab id ad nesciunt quo aut corporis modi? Voluptate, quos sunt dolorum facilis, id eum sequi placeat accusantium saepe eos laborum.",
-    img: "https://images.pexels.com/photos/18073372/pexels-photo-18073372/free-photo-of-young-man-sitting-in-a-car-on-a-night-street.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load",
-    link: "https://lama.dev",
+    color: "from-indigo-300 to-sky-300",
+    title: "Emotion Detection App",
+    desc: "Built an ML model using Scikit-learn and NLTK to classify text messages into emotions like happy, sad, and angry. Used TF-IDF for feature extraction and logistic regression for classification.",
+    img: "https://images.pexels.com/photos/3184325/pexels-photo-3184325.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    link: "https://github.com/subhash48",
   },
   {
     id: 2,
-    color: "from-blue-300 to-violet-300",
-    title: "Next.js Medium Blog",
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab id ad nesciunt quo aut corporis modi? Voluptate, quos sunt dolorum facilis, id eum sequi placeat accusantium saepe eos laborum.",
-    img: "https://images.pexels.com/photos/18023772/pexels-photo-18023772/free-photo-of-close-up-of-a-person-holding-a-wristwatch.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load",
-    link: "https://lama.dev",
+    color: "from-cyan-300 to-emerald-300",
+    title: "Student Grade Predictor",
+    desc: "Developed a support vector regression model using Scikit-learn to predict student final grades. Tuned hyperparameters and visualized predictions to enhance model performance.",
+    img: "https://images.pexels.com/photos/6693654/pexels-photo-6693654.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    link: "https://github.com/subhash48",
   },
   {
     id: 3,
-    color: "from-violet-300 to-purple-300",
-    title: "Vanilla Book App",
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab id ad nesciunt quo aut corporis modi? Voluptate, quos sunt dolorum facilis, id eum sequi placeat accusantium saepe eos laborum.",
-    img: "https://images.pexels.com/photos/6894528/pexels-photo-6894528.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load",
-    link: "https://lama.dev",
+    color: "from-rose-300 to-fuchsia-300",
+    title: "CNN Image Classifier",
+    desc: "Created a convolutional neural network model using TensorFlow and Keras to classify CIFAR-10 images. Used dropout and data augmentation for better generalization.",
+    img: "https://images.pexels.com/photos/1181675/pexels-photo-1181675.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    link: "https://github.com/subhash48",
   },
   {
     id: 4,
-    color: "from-purple-300 to-red-300",
-    title: "Spotify Music App",
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab id ad nesciunt quo aut corporis modi? Voluptate, quos sunt dolorum facilis, id eum sequi placeat accusantium saepe eos laborum.",
-    img: "https://images.pexels.com/photos/18540208/pexels-photo-18540208/free-photo-of-wood-landscape-water-hill.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    link: "https://lama.dev",
+    color: "from-yellow-300 to-pink-300",
+    title: "Music Genre Classifier",
+    desc: "Extracted MFCC features from audio tracks using Librosa and trained a deep neural network in TensorFlow to classify music genres with 85% accuracy.",
+    img: "https://images.pexels.com/photos/1647382/pexels-photo-1647382.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    link: "https://github.com/subhash48",
   },
 ];
 
@@ -68,7 +68,7 @@ const PortfolioPage = () => {
 
               <div className={`h-screen w-screen flex items-center justify-center bg-gradient-to-r ${item.color}`} key={item.id}>
                 <div className="flex flex-col gap-8 text-white">
-                  <h1 className="text-xl font-bold md:text-4xl lg:text-6xl xl:text-8xl">{item.title}</h1>
+                  <h1 className="text-xl font-bold md:text-3xl lg:text-4xl xl:text-6xl">{item.title}</h1>
                   <div className="relative w-80 h-56 md:w-96 md:h-64 lg:w-[500px] lg:h-[350px] xl:w-[600px] xl:h-[420px]">
                     <Image src={item.img} alt="" fill/>
                   </div>
@@ -101,7 +101,7 @@ const PortfolioPage = () => {
              </defs>
              <text fill="#000">
                 <textPath xlinkHref="#circlePath" className="text-xl">
-                  Front-end Developer and UI Designer
+                Aspiring AI Engineer and Full Stack Dev
                 </textPath>
               </text>
             </motion.svg>
